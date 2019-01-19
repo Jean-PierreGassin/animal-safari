@@ -35,7 +35,7 @@ namespace AnimalSafari
                 if (success)
                 {
                     Animal animal = new Animal(animals.ElementAt(selectedAnimalIndex));
-                    Console.WriteLine($"You chose a {animal.Name}!");
+                    Console.WriteLine($"You chose a {animal.GetName()}!");
                 }
                 else {
                     Console.WriteLine("That's not an animal you can choose!");
