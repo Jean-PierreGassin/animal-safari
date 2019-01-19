@@ -43,7 +43,7 @@ namespace AnimalSafari
             animal.SetName(selectedAnimal);
             Console.WriteLine($"You chose a {animal.GetName()}!");
 
-            Console.ReadKey();
+            Console.Read();
         }
     }
 }
