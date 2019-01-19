@@ -4,16 +4,11 @@ namespace AnimalSafari
 {
     public class Animal
     {
-        private string name;
+        public string Name { get; set; }
 
-        public void SetName(string name)
+        public Animal (string name)
         {
-            this.name = name;
-        }
-
-        public string GetName()
-        {
-            return this.name;
+            Name = name;
         }
     }
 }
